@@ -9,14 +9,14 @@ public class App
 	public int sum(int a, int b) {
 		return a+b;
 	}
-	public void sub(int a, int b) {
-		System.out.println(b-a);
+	public int sub(int a, int b) {
+		return b-a;
 	}
-	public void multiply(int a, int b) {
-		System.out.println(a*b);
+	public int multiply(int a, int b) {
+		return a*b;
 	}
-	public void divide(int a, int b) {
-		System.out.println(b/a);
+	public int divide(int a, int b) {
+		return b/a;
 	}
 	
     public static void main( String[] args )
@@ -25,9 +25,9 @@ public class App
        int a = 10;
        int b = 20;
        System.out.println(c.sum(a,b));
-       c.sub(a, b);
-       c.multiply(a, b);
-       c.divide(a, b);
+       System.out.println(c.sub(a, b));
+       System.out.println(c.multiply(a, b));
+       System.out.println(c.divide(a, b));
        
        
     }

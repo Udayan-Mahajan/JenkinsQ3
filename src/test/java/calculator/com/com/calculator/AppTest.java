@@ -35,5 +35,8 @@ public class AppTest
     {
     	App app = new App();
         assertEquals(20, app.sum(10,10));
+        assertEquals(0, app.sub(10, 10));
+        assertEquals(100, app.multiply(10, 10));
+        assertEquals(1,app.divide(10, 10));
     }
 }
